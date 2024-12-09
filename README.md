@@ -1,3 +1,3 @@
 HI, 
-there i,m currently working on something cool and interesting!
-i,m currently at uni learning to to be a software engineer.
+I'm currently working on something cool and interesting!
+I'm currently in uni learning to be a software engineer.

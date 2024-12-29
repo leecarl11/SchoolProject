@@ -1,31 +1,16 @@
-def calculate_grade(mark):
-  """Calculates the grade for a given student mark.
+mark=int(input("Enter student mark: "))
 
-  Args:
-    mark: The student's mark as an integer or float.
-
-  Returns:
-    The corresponding grade as a string.
-  """
-
-  if mark >= 90:
-    return "A"
-  elif mark >= 80:
-    return "B"
-  elif mark >= 70:
-    return "C"
-  elif mark >= 60:
-    return "D"
-  else:
-    return "F"
-
-if __name__ == "__main__":
-  try:
-    mark = float(input("Enter the student's mark (0-100): "))
-    if 0 <= mark <= 100:
-      grade = calculate_grade(mark)
-      print("Grade:", grade)
-    else:
-      print("Invalid mark. Please enter a value between 0 and 100.")
-  except ValueError:
+if mark >= 70 and 100:
+    print("A")
+elif mark >= 60 and 69:
+    print("B")
+elif mark >= 50 and 59:
+    print("C")
+elif mark >= 40 and 49:
+    print("D")
+elif mark >= 30 and 39:
+    print("E")
+elif mark >= 20 and 29:
+    print("F")
+else:
     print("Invalid input. Please enter a numeric value.")

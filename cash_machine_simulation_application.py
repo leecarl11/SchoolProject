@@ -69,7 +69,7 @@ def main():
         print("***********************************")
 
         #choice variable for some user input
-        choice = input("Enter your choice: 1-8: ")
+        choice = input("Enter your choice: 1-5: ")
         #checking to see the users choice by adding the if statement
         if choice == "1":
             #if choice is 1, then call the function to show_balance
